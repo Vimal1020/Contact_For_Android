@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#B3E5FC"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnlistcont"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#FFF"
+        android:background="@drawable/button"
+        android:text="List Of Contacts "
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btncreatecont"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:layout_width="match_parent"
+        android:background="@drawable/button"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="Create Contact " />
+</LinearLayout>
